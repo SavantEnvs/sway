@@ -1,0 +1,9 @@
+project: savantenvs/sway
+target: fuzz_swaymsg_reply
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_swaymsg_reply/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_swaymsg_reply
+    libfuzzer: true
+    timeout: 10

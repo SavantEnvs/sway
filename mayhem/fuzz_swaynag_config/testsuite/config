@@ -1,0 +1,15 @@
+# swaynag config
+font=monospace 10
+edge=bottom
+background=#ff0000
+[warning]
+background=#ffc100ff
+text=000000
+border-bottom-size=3
+message-padding=8
+button-gap=4
+layer=overlay
+[green]
+background=#00ff00
+button-background=#00aa00
+output=HDMI-A-1

@@ -1,0 +1,9 @@
+project: savantenvs/sway
+target: fuzz_icon_theme
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_icon_theme/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_icon_theme
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,4 @@
+{"version":1,"click_events":true,"stop_signal":10}
+[
+[{"full_text":"hello","color":"#ff0000","background":"#00ff00aa","min_width":"xxxx","align":"center","urgent":true,"name":"n","instance":"i","separator":false,"separator_block_width":5,"markup":"pango","border":"#123456","border_top":1,"border_bottom":2,"border_left":3,"border_right":4}],
+[{"full_text":"a","short_text":"b","min_width":20}]

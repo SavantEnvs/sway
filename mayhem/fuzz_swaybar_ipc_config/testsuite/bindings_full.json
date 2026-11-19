@@ -1,0 +1,1 @@
+{"id":"bar-0","bindings":[{"event_code":274,"input_code":0,"command":"exec foo","release":true},{"event_code":275,"input_code":4,"command":"workspace prev","release":false}],"tray_bindings":[{"event_code":272,"input_code":0,"command":"Activate"},{"event_code":274,"input_code":0,"command":"SecondaryActivate"}]}
